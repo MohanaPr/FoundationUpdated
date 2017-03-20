@@ -1,0 +1,84 @@
+.orbit-image.slider-image
+{
+	height: 200px;
+    width: 50%;
+}
+.top-bar, .top-bar ul, .top-bar-left
+{
+	background-color: white;	
+
+}
+.text
+{
+	font-size: 25px;
+	margin:10px;
+}
+.clear
+{
+	clear:both;
+}
+.text-wrapper 
+{
+    position: relative;   
+    color: grey;
+    font-size: 150%;
+    font-family: Georgia;
+}
+.text-wrapper span a
+{
+	/*padding-left:20px;*/
+	height: 50%;
+    position: absolute;
+    color: black;
+    overflow: hidden;  
+}
+.dropdown.menu.top-navigation 
+{
+	padding-top:40px;
+}
+.dropdown.menu.top-navigation li a
+{
+   color:black;
+}
+.dropdown.menu.top-navigation li a:hover
+{
+   background-color:black;
+   color:white;
+   padding:10px;
+}
+#slider
+{
+	min-width:100%;
+	margin-top: 20px;
+}
+.wrapper
+{
+background-image:url(../images/blue.png);	
+	background-size:cover;
+}
+.details
+{
+	padding-top:10px;
+}
+#back
+{
+	margin-top:10px;
+}
+.text, .help-text.text
+{
+	color:white;
+}
+#shoppage
+{
+	color: black;
+}
+.help-text
+{
+	font-size: 13px;
+	color:white;
+}
+.logoimage
+{
+	width:50%;
+	height:50%;
+}

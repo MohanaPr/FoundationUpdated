@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>UserSignUp</title>
+
+    <link rel="stylesheet" type="text/css" href="css/foundation.css">
+    <link rel="stylesheet" type="text/css" href="css/userapp.css">
+
+</head>
+
+<body class="mainc">
+    <div>
+        <h1 class="create">Create an Account<h1>
+        </div>
+        <!-- Create Account starts -->
+        <section class="signUpPage">
+            <!-- Toggle part starts -->
+            <section class="title-bar" data-responsive-toggle="example-menu" data-hide-for="medium">
+                <button class="menu-icon" type="button" data-toggle></button>
+                <div class="title-bar-title">Menu</div>
+            </section>
+
+            <section class="top-bar" id="example-menu">
+                <div class="top-bar-left nav">
+                    <a href="login.html">Home</a>
+                </div>
+                <div class="top-bar-right nav">
+                    <a href="contact.html">Contact Us</a>
+                </div>
+                <!-- Toggle part ends -->
+            </section>
+
+            <!-- New user registration form starts -->
+            <section class="wrapper large-6 columns" id="wrapper">
+                <h1 class="newUser">New User Sign Up</h1>
+
+                <form>
+                    <div class="row">
+                        <div class="small-4 columns">
+                            <label class="text">First Name</label>
+                            <input data-tooltip class="tip-right" type="text" placeholder="FirstName" title="Enter your First Name">
+                        </div>
+                        <div class="small-4 columns">
+                            <label class="text">Middle Name</label>
+                            <input data-tooltip class="tip-right" type="text" placeholder="MiddleName" title="Enter your MiddleName">
+
+                        </div>
+                        <div class="small-4 columns">
+                            <label class="text">Last Name</label>
+                            <input data-tooltip class="tip-right" type="text" placeholder="LastName" title="Enter your LastName">
+
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="large-12 columns">
+                            <label class="text"><span class="red-star">*</span>User Name</label>
+                            <input data-tooltip class="tip-right" type="text" id="userName" placeholder="Please enter your User Name" title="The username must be more than 6 and less than 30 characters long">
+
+                            <p class="userError">The UserName is Invalid!</p>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="large-12 columns">
+                            <label class="text"><span class="red-star">*</span>Password</label>
+                            <input type="password" data-tooltip class="tip-right" id="password" placeholder="Please enter your password" title="Password must be at least 8 characters. At least 1 number, 1 lowercase, 1 uppercase letter. At least 1 special character from @#$%&">
+
+                            <p class="passwordError">The Password is Invalid!</p>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="large-12 columns">
+                            <label class="text"> <span class="red-star">*</span>E-mail</label>
+                            <input type="text" data-tooltip class="tip-right" id="mailId" placeholder="Please enter your mailid" title="Example@domain.com">
+
+                            <small class="mailError">E-mail is Invalid!</small>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="large-12 columns">
+                            <label class="text"><span class="red-star">*</span>Contact Number </label>
+                            <input type="text" data-tooltip class="tip-right" id="contactNumber" placeholder="Please enter your mobile number" title="Eg:9876543210">
+
+                            <small class="contactError">The Contact Number is Invalid!</small>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="large-6 columns">
+                            <label class="text">Gender</label>
+                            <input type="radio" class="gender" name="Gender" value="Male" id="male">
+                            <label class="text" >Male</label>
+                            <input type="radio" class="gender" name="Gender" value="Female" id="female">
+                            <label class="text" >Female</label>
+                        </div>
+                    </div>
+                    
+                    <div class="row">
+                        <div class="large-12 columns">
+                            <label class="text">Choose your secret question</label>
+                            <select>
+                                <option>--Select--</option>
+                                <option value="1">What is your nickname?</option>
+                                <option value="2">Who is your favourite hero?</option>
+                                <option value="3">What is your hobby?</option>
+                                <option value="4">What is your favourite color?</option>
+                                <option value="5">What is the name of your favorite pet?</option>
+                                <option value="6">What is the name of your first grade teacher?</option>
+                            </select>
+
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="large-12 columns">
+                            <label class="text">Answer</label>
+                            <input type="text" placeholder="Please enter your answer" />
+
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="large-12 columns">
+                            <label class="text">Address</label>
+                            <textarea placeholder="Please enter your address"></textarea>
+
+                        </div>
+                    </div>
+                    <label class="text">
+                        <input type="checkbox" value="agree" id="agree" class="agree">I agree to <a href="#" id="terms">Terms&Conditions</a> </label>
+                        <small class="checkBoxError">Please agree to Terms&Conditions </small>
+                        <div><a href="#" class="button success" id="btn">Submit</a>
+                        </div>
+                    </form>
+
+                </section>
+                <!-- New user registration form ends -->
+                <!-- Slider part starts -->
+                <section class="large-6 columns mainWrapper">
+                    <h1 class="sliderHead"><a href="#">Shoppiee World</a></h1>
+                    <div class="orbit userSlide" role="region" aria-label="Favorite Space Pictures" data-orbit>
+                        <ul class="orbit-container">
+                            <button class="orbit-previous"><span class="show-for-sr">Previous Slide</span>&#9664;&#xFE0E;</button>
+                            <button class="orbit-next"><span class="show-for-sr">Next Slide</span>&#9654;&#xFE0E;</button>
+                            <li class="is-active orbit-slide">
+                                <img class="orbit-image" src="images/shop1.jpg" alt="Shopping">
+                                <p class="orbit-caption slidImg">Free shipping</p>
+                            </li>
+                            <li class="orbit-slide">
+                                <img class="orbit-image" src="images/shop2.jpg" alt="Shopping">
+                                <p class="orbit-caption slidImg">Cash on Delivery</p>
+                            </li>
+                            <li class="orbit-slide">
+                                <img class="orbit-image" src="images/shop3.jpg" alt="Shopping">
+                                <p class="orbit-caption slidImg">24*7 Customer Services</p>
+                            </li>
+                            <li class="is-active orbit-slide">
+                                <img class="orbit-image" src="images/shop4.jpg" alt="Shopping">
+                                <p class="orbit-caption slidImg">Cheap and best</p>
+                            </li>
+                            <li class="is-active orbit-slide">
+                                <img class="orbit-image" src="images/shop5.jpg" alt="Shopping">
+                                <p class="orbit-caption slidImg">30 days return policy</p>
+                            </li>
+                            <li class="is-active orbit-slide">
+                                <img class="orbit-image" src="images/shop6.jpg" alt="Shopping">
+                                <p class="orbit-caption slidImg">Quick Response</p>
+                            </li>
+                        </ul>
+
+                    </div>
+                    <!-- Slider part ends -->
+
+                    <div>
+                        <p class="para"> In modern days customer focus is more transferred towards online shopping; worldwide people order products from different regions and online retailers deliver their products to their homes, offices or wherever they want. The B2C (business to consumer) process has made it easy for consumers to select any product online from a retailer's website and have it delivered to the consumer within no time. The consumer does not need to consume his energy by going out to the stores and saves his time and cost of travelling. The shopping experience can range from delightful to terrible, based on a variety of factors including how the customer is treated, convenience, the type of goods being purchased, and mood.The shopping experience can also be influenced by other shoppers. For example, research from a field experiment found that male and female shoppers who were accidentally touched from behind by other shoppers left a store earlier than people who had not been touched and evaluated brands more negatively.</p>
+                    </div>
+
+                </section>
+
+
+
+            </section>
+            <!-- Create Account ends -->
+
+
+            <section class="opacitylayer">
+
+            </section>
+
+            <section class="popup">
+            </section>
+
+
+            <script src="js/vendor/jquery.js"></script>
+            <script src="js/vendor/foundation.js"></script>
+            <script src="js/vendor/foundation.min.js"></script>
+            <script src="js/usermain.js"></script>
+            <script src="js/app.js"></script>
+
+        </body>
+
+        </html>

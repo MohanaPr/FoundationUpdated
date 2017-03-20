@@ -1,0 +1,158 @@
+.top-bar, .top-bar ul {
+	background-color: #353232;
+}
+body{
+	background-image: url("../images/row.png");
+	background-size: cover;
+}
+.signUpPage
+{
+	
+	position: relative;
+	z-index: 1;
+}
+.create
+{
+	color: white;
+	font-size: 25px;
+	text-align: center;
+}
+a
+{
+	color: #f5ebeb;
+}
+.menu-text
+{
+	color: #f5ebeb;
+}
+.newUser
+{
+	text-align: center;
+	color: #21c2e8;
+	padding-top: 20px;
+	font-style: italic;
+	font-size: 40px;
+}
+#btn
+{
+	border-radius: 10px;
+	margin-left:30px; 
+}
+
+.userError,.passwordError,.mailError,.contactError,.checkBoxError
+{
+	color: red;
+	display: none;
+	font-size:15px;
+	font-style: italic;
+}
+.red-star {
+	color: red;
+}
+#terms
+{
+	color: #21c2e8;
+	font-style: italic;
+}
+.mainWrapper
+{
+	padding-top: 20px;
+}
+.sliderHead
+{
+	font-style: italic;
+	font-weight: bold;
+	font-size: 40px;
+	text-align: center;
+	animation-name: blinker;
+	animation-duration: 1s;
+	animation-timing-function:linear; 
+	animation-iteration-count: infinite;
+	background: -webkit-linear-gradient(#00e6e6, #ff1aff);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+.sliderHead:hover
+{
+	animation-play-state: paused;
+}
+@keyframes blinker
+{
+	0%{opacity:1.0}
+	50%{opacity:0.0}
+	100%{opacity:1.0}
+}
+.userSlide
+{
+	padding:20px 0px 20px 0px;
+}
+.slidImg
+{
+	color:white;
+	font-style: italic;
+	font-weight: bold;
+	text-align: center;
+	font-family: 
+}
+.para
+{
+	color: #C71585;
+	font-weight: bold;
+	text-align: justify;
+	text-justify: inter-word;
+	font-size: 15px;
+	font-style: italic;
+
+}
+.opacitylayer
+{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width:100%;
+	min-height: 2000px;
+	display: none;
+	z-index: 2;
+}
+.poparti
+{
+	position: absolute;
+	top: 204px;
+	right: 50px;
+	left: 428px;
+	width: 399px;
+	background: #457fca; 
+	background: -webkit-linear-gradient(to left, #457fca , #5691c8); 
+	background: linear-gradient(to left, #457fca , #5691c8); 
+	display: inline-block;
+	font-size: 20px;
+	padding: 30px;
+	border-radius: 5px;
+	z-index: 3;
+}
+.popname
+{
+	color: white;
+	margin-bottom: 10px;
+	text-align: center;
+	text-shadow: 2px 2px 4px #000000;
+}
+.userBtn
+{
+	color: #0a0a0a;
+	margin-left: 160px;
+	background-color: white;
+	padding: 5px;
+	border-radius: 5px;
+}
+.closeimg
+{
+	width: 20px;
+	position: absolute;
+	top:10px;
+	right:10px;
+}
+.text
+{
+	color: white;
+}

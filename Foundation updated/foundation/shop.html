@@ -1,0 +1,286 @@
+<!doctype html>
+<html class="no-js" lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foundation for Sites</title>
+    <link rel="stylesheet" href="css/foundation.css">
+    <link rel="stylesheet" href="css/app.css">
+    <link rel="stylesheet" type="text/css" href="css/foot.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/motion-ui/1.1.1/motion-ui.min.css" />
+  </head>
+  <body>
+ <!--  Navigation bar starts here -->
+     <div class="off-canvas-wrapper">
+        <div class="off-canvas-wrapper-inner" data-off-canvas-wrapper>
+          <div class="off-canvas position-left" id="offCanvas" data-off-canvas>
+             <button class="close-button" aria-label="Close menu" type="button" data-close>
+                  <span aria-hidden="true">&times;</span>
+                </button>
+             <ul class="vertical menu color">
+       
+                <li class="has-form">
+                  <div class="row collapse">
+                  <div class="small-7 columns">
+                  <input type="text" placeholder="Find items" class="input">
+                  </div>
+                  <div class="small-5 columns">
+                    <a href="#" class="alert button expand" id="searchitem1">Search</a>
+                   </div>
+                  </div>
+               </li>
+            
+                <li>
+                 <ul class="vertical menu" id="accodr" data-accordion-menu>
+                      <li class="leftmenu">
+                        <a href="#" class="leftmenu">Profile</a>
+                        <ul class="menu vertical nested">
+                          <li><a href="#">Payment Method</a>
+                            <ul class="menu vertical nested">
+                                <li><a href="#">VISA</a></li>
+                                 <li><a href="#">PayPal</a></li>
+                                 <li><a href="#">Mastercard</a></li>
+                                 <li><a href="#">Discover</a></li>
+                                 <li><a href="#">American Express</a></li>
+                            </ul>
+                          </li>
+                          <li><a href="#">Newsletter</a></li>
+                          <li><a href="#">My Account</a></li>
+                          <li><a href="#">Information</a></li>
+                          <li><a href="#">Shipping & Delivery</a></li>
+                        </ul>
+                      </li>
+                      <li class="leftmenu">
+                          <a href="#" class="uname" id="inusername"></a>
+                          <ul class="menu vertical nested">
+                           <li><a href="login.html">Logout</a></li>
+                          </ul>
+                      </li>
+                  </ul>
+               
+                </li>
+            </ul>
+          </div>
+          <!-- Page content -->
+          <div class="off-canvas-content" data-off-canvas-content>
+              <div class="small-12 medium-12 columns container">
+                 <div class="top-bar">
+                     <div class="top-bar-left">
+                          <a href="login.html"><img src="images/final.jpg" alt="image" width="60" height="60"></a>
+                          <span><a href="login.html">Shoppiee world</a></span>
+                       </div>
+                       <div class="top-bar-right" >
+                         <div class="small-1 columns title-bar" data-open="offCanvas" data-responsive-toggle="example-menu"   data-hide-for="medium">
+                            <button class="small-1 columns small-left menu-icon" type="button" data-toggle></button>
+                         </div>
+                      
+                          <ul class="dropdown menu show-for-medium" data-dropdown-menu id="example-menu">
+                           <li class="has-form">
+                              <div class="row collapse">
+                              <div class="small-7 columns">
+                              <input type="text" placeholder="Find items" class="input">
+                              </div>
+                              <div class="small-5 columns">
+                                <a href="#" class="alert button expand" id="searchitem">Search</a>
+                               </div>
+                              </div>
+                           </li>
+                        
+                            <li><a href="#">profile</a>
+                                <ul class="vertical menu" data-accordion-menu>
+                                  <li>
+                                    <a href="#">Payment Method</a>
+                                     <ul class="menu vertical nested">
+                                      <li><a href="#">VISA</a></li>
+                                       <li><a href="#">PayPal</a></li>
+                                       <li><a href="#">Mastercard</a></li>
+                                       <li><a href="#">Discover</a></li>
+                                       <li><a href="#">American Express</a></li>
+                                     </ul>
+                                  </li>
+                                  <li><a href="#">Newsletter</a></li>
+                                  <li><a href="#">My Account</a></li>
+                                  <li><a href="#">Information</a></li>
+                                  <li><a href="#">Shipping & Delivery</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#" class="uname"></a>
+                               <ul class="menu vertical">
+                                <li><a href="login.html">logout</a></li>
+                               </ul>
+                            </li>
+                          </ul>
+                      </div>
+                 </div>
+              <!--  Navigation bar ends here -->
+              <!-- slider starts here -->
+                  <div class="small-12 medium-12 small-centered columns orbit" role="region" aria-label="Favorite Space Pictures" data-orbit data-options="animInFromLeft:fade-in; animInFromRight:fade-in; animOutToLeft:fade-out; animOutToRight:fade-out;">
+
+                    <ul class="orbit-container">
+                      <button class="orbit-previous"><span class="show-for-sr">Previous Slide</span>&#9664;&#xFE0E;</button>
+                      <button class="orbit-next"><span class="show-for-sr">Next Slide</span>&#9654;&#xFE0E;</button>
+                      <li class="is-active orbit-slide">
+                        <img class="orbit-image" src="images/pic1.png" alt="Space">
+                        <figcaption class="orbit-caption">Space, the final frontier.</figcaption>
+                      </li>
+                      <li class="orbit-slide">
+                        <img class="orbit-image" src="images/pic2.png" alt="Space" width="600" height="500">
+                        <figcaption class="orbit-caption">Lets Rocket!</figcaption>
+                      </li>
+                      <li class="orbit-slide">
+                        <img class="orbit-image" src="images/pic3.png" alt="Space" width="600" height="500">
+                        <figcaption class="orbit-caption">Encapsulating</figcaption>
+                      </li>
+                      <li class="orbit-slide">
+                        <img class="orbit-image" src="images/pic4.png" alt="Space" width="600" height="500">
+                        <figcaption class="orbit-caption">Outta This World</figcaption>
+                      </li>
+                    </ul>
+                    <nav class="orbit-bullets">
+                      <button class="is-active" data-slide="0"><span class="show-for-sr">First slide details.</span><span class="show-for-sr">Current Slide</span></button>
+                      <button data-slide="1"><span class="show-for-sr">Second slide details.</span></button>
+                      <button data-slide="2"><span class="show-for-sr">Third slide details.</span></button>
+                      <button data-slide="3"><span class="show-for-sr">Fourth slide details.</span></button>
+                    </nav>
+                  </div>
+              <!-- slider ends here-->
+
+
+              <!-- Products menu starts here -->
+
+                  <div class="row">
+                    <div class="medium-2 columns prod">
+                      <ul class="vertical menu" id="menuvert" data-drilldown>
+                        <li>
+                         <a href="#" class="prodname">PRODUCTS</a>
+                            <ul class="vertical menu">
+                              <li><a href="javascript:void(0)" id="pendrive" class="product">Pendrive</a></li>
+                              <li><a href="javascript:void(0)" id="watch" class="product">Watch</a></li>
+                              <li><a href="javascript:void(0)" id="mobile" class="product">Mobile</a></li>
+                              <li><a href="javascript:void(0)" id="camera" class="product">Camera</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                        <a href="#" class="prodname">HELP</a>
+                         <ul class="vertical menu">
+                            <li><a href="contact.html">Contact Us</a></li>
+                            <li><a href="#">FAQ</a></li>
+                            <li><a href="#">Post</a></li>
+                          </ul>
+                        </li>
+                        <li>
+                         <a href="#" class="prodname">SHARE</a>
+                          <ul class="vertical menu">
+                            <li><a href="https://www.google.com">Facebook</a></li>
+                            <li><a href="https://www.google.com">twitter</a></li>
+                            <li><a href="https://www.google.com">email</a></li>
+                          </ul>
+                        </li>  
+                      </ul>
+                    </div>
+                      <div id="demo" class="medium-10 columns">
+                         
+                            <h1 class="headtag">Today's Offer..</h1>
+                            <div class="images" id="div1">
+                              <span data-tooltip aria-haspopup="true" class="has-tip top" data-disable-hover="false" tabindex="2" title="NOKIA LUMIA Rs.10,000">
+                              <img src="images/mob1.png" alt="Space">
+                              </span>
+                            </div>
+                            <div class="images" id="div2">
+                              <span data-tooltip aria-haspopup="true" class="has-tip top" data-disable-hover="false" tabindex="2" title="CANNON Rs.9,000">
+                               <img src="images/cam1.png" alt="Space">
+                              </span>
+                            </div>
+                            <div class="images" id="div3">
+                               <span data-tooltip aria-haspopup="true" class="has-tip top" data-disable-hover="false" tabindex="2" title="FAST TRACK Rs.2,000">
+                               <img src="images/w1.png" alt="Space">
+                               </span>
+                            </div>
+                            <div class="images" id="div4">
+                            <span data-tooltip aria-haspopup="true" class="has-tip top" data-disable-hover="false" tabindex="2" title="INTEX RS.4,999">
+                             <img src="images/mob2.png" alt="Space">
+                             </span>
+                             </div>
+                            <div class="images" id="div5">
+                            <span data-tooltip aria-haspopup="true" class="has-tip top" data-disable-hover="false" tabindex="2" title="HP Rs.300">
+                              <img src="images/pen1.png" alt="Space">
+                            </span>
+                            </div>
+                            <div class="images" id="div6">
+                            <span data-tooltip aria-haspopup="true" class="has-tip top" data-disable-hover="false" tabindex="2" title="Dinor Rs.2,500">
+                              <img src="images/w5.png" alt="Space">
+                            </span>
+                            </div>
+                            <div class="images" id="div7">
+                            <span data-tooltip aria-haspopup="true" class="has-tip top" data-disable-hover="false" tabindex="2" title="Transcend 8GB Rs.450">
+                              <img src="images/pen3.png" alt="Space">
+                            </span>
+                            </div>
+                            <div class="images" id="div8">
+                            <span data-tooltip aria-haspopup="true" class="has-tip top" data-disable-hover="false" tabindex="2" title="Nikon Rs.9000">
+                              <img src="images/cam3.png" alt="Space">
+                            </span>
+                            </div>
+                      </div>
+                  </div>
+
+                  <footer><!--Footer starts-->
+                    <div class="row">
+                        <div class="small-6 large-6 columns" id="copyright">
+                               Copyright &#169; 1998–2016 <span class="blinking-cursor"><a href="login.html">SHOPPIEE WORLD</a></span>, Inc. All rights reserved.
+                        </div>
+                      <div class="small-6 large-6 columns">
+                          <ul class="menu">
+                            <li id="social">
+                              <a href="#">  
+                                  <img class="bottom" src="images/tweet.png" />
+                                  <img class="top" src="images/twitter-icon.png" />
+                            </a></li>
+                          <li id="social">
+                          <a href="#"> 
+                                  <img class="bottom" src="images/fbicon.png" />
+                                  <img class="top" src="images/fb-icon.png" />
+                          </a></li>
+                          <li id="social">
+                          <a href="#">
+                                  <img class="bottom" src="images/g_plus.png" />
+                                  <img class="top" src="images/g_plus-icon.png" />
+                          </a></li>
+                          <li id="social">
+                          <a href="#">
+                                  <img class="bottom" src="images/instagram.png" />
+                                  <img class="top" src="images/instagram-icon.png" />
+                          </a></li> 
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="clear"></div>
+                  </footer>
+
+              </div>
+          </div>
+        </div>
+     </div>
+ <!-- products menu ends here -->
+<!--popup starts-->
+    <section id="layer"></section>
+    <section id="pop">
+      <p>Ur product has been purchased</p>
+      <p>Thanks for shopping!!</p>
+      <a href="javascript:void(0)"><img src="images/cancel.png" alt="cancel" class="cancel"></a> 
+    </section>
+    <section id="pop1">
+      <p>Ur product added successfully!!</p>
+      <p>Thanks for shopping!!</p>
+      <a href="javascript:void(0)"><img src="images/cancel.png" alt="cancel" class="cancel"></a> 
+    </section>
+    
+    <script src="js/vendor/jquery.js"></script>
+
+    <script src="js/vendor/what-input.js"></script>
+    <script src="js/vendor/foundation.js"></script>
+    <script src="js/app.js"></script>
+   
+  </body>
+</html>
